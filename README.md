@@ -158,18 +158,4 @@ Access the application via browser:
 - **Swagger API Documentation**: `http://localhost:5000/swagger`
 - **Postman Collection**: Import `SmartShop_API.postman_collection.json` to execute comprehensive test suites.
 
----
 
-## 5. Marking Schema & Compliance Checklist
-
-| Item | Requirement Description | Marks | Status |
-| :---: | :--- | :---: | :---: |
-| 1 | Create database `SMARTSHOP` & configure Gemini API key (User Secrets) | 2.0 | **100% Compliant** |
-| 2 | Question 1: API `generatedescription` (Copywriter $\le$ 80 words) | 3.0 | **100% Compliant** |
-| 3 | Question 2: API `analyzereview` (JSON structured output mode) | 4.0 | **100% Compliant** |
-| 4 | Question 3: API `shoppingassistant` (Context RAG + multi-turn history) | 4.0 | **100% Compliant** |
-| 5 | Question 4: API `getreviewreport` (Aggregated review report table) | 3.0 | **100% Compliant** |
-| 6 | Question 5: Frontend Website (Review report dashboard) | 2.0 | **100% Compliant** |
-| 7 | Question 6: Documentation `README.md` (Prompts & security guide) | 1.0 | **100% Compliant** |
-| 8 | Bonus: Clean architecture, error handling (JSON parsing, HTTP 429 quota) | 1.0 | **100% Compliant** |
-| **Total** | **Projected Score** | **21 / 20** | **Outstanding** |
