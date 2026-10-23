@@ -1,0 +1,26 @@
+## Build and output directories
+bin/
+obj/
+out/
+
+## Visual Studio & VS Code files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userprefs
+
+## Logs
+*.log
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
